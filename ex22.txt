@@ -1,0 +1,37 @@
+def - begins a function
+end - ends a block of code
++, -, /, *, % - operators
+function - "a variable that holds a block of code"
+return - the result of calling a function
+puts - prints out a string to the console with a newline
+print - prints out a string to the console without a newline
+open - a method that opens a file
+close - a method that closes a file
+truncate() - a method that truncates a file at a given byte location.
+seek() - a method that "goes" to a given byte location in a file
+read - a method that reads a file.
+write() - a method that takes a parameter and writes to a file.
+# - octothorpe (comment)
+=begin / =end - multiline comments
+string - a piece of text
+integer - an integer
+floating point - decimal numbers for the purposes of regular "human" arithmetic
+#{} - interpolation. Used for inserting info from variables into strings of text.
+%{} - formatter. Used for repetitive formatting.
+argument(s) - the input(s) given to a function for the purpose of producing an output.
+double-quotes - tells Ruby to look for variables inside the string.
+single-quotes - tells Ruby not to look for variables inside the string; prints the string exacty as is.
+puts %q - allows for multiline puts.
+triple-quotes - allows for multiline puts.
+\ - escape character.
+\t - tab
+\n - newline
+* - wildcard ("complete with anything")
+variable - like a regular math variable, but can store an integer, float, or string.
+integer math - division of integers in Ruby will result in integers, regardless of remainder; careful!
+$stdin.gets.chomp - a better alternative to gets.chomp when using ARGV
+ARGV - the argument variable. It's located at the top of the script file and lets the user specify the value of variables when calling a script in the command line.
+File.exist? - checks if a certain file exists or not.
+parameter - the input to a function.
+"inside out" - the notion that 'functions within functions' are evaluated from the inside going outward.
++= - a contraction that indicates that 'x = x + y' is the same as 'x += y'
