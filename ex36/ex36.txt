@@ -1,0 +1,9 @@
+Baking a cake
+
+- Ask what type of food to make for lunch
+
+- If sushi, ask what type.
+
+- If pizza, ask what type.
+
+- If anything else, say that the choice is unacceptable.

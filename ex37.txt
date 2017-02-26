@@ -1,0 +1,11 @@
+A flow chart is a visual depiction of the sequence of events in a program.
+
+begin/end - denotes the beginning and end of a standalone block of code. Much like def/end when writing a function.
+
+rescue - handles exceptions.
+
+ensure - ensures that a specific block of code is run, no matter what.
+
+modules - a way of grouping together methods, classes, and constants. They provide a namespace for these groupings, and implement the mixin facility.
+
+yield - pause and transfer control to the code block.
